@@ -1,0 +1,47 @@
+h1{
+  letter-spacing:10px;
+  font-family: fantasy;
+  font-size: 50px;
+  text-shadow: 5px 5px rgb(243, 189, 189);
+}
+img {
+height: 70px;
+width: 70px;
+}
+body{
+background-image:url(./img/fon\ img.jpg);
+background-repeat: no-repeat;
+background-size:95%;
+background-position:top,center;
+  background-color: rgb(5, 5, 3);
+  
+}
+input,  button {
+  height: 40px;
+  width: 250px;
+  margin: 10px;
+  background-color: rgb(241, 230, 216);
+  border-radius: 5px;
+  font-size: 20px;
+}
+input:valid{
+  border:3px solid black;
+}
+input:invalid {
+  border: 2px dashed red;
+}
+
+table{
+  border:5px solid black;
+  width:400px;
+  height: 150px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.container {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+      padding: 20px;
+}

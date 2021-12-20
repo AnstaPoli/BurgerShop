@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SVBurger</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/svBurger.css'>
+</head>
+<body>
+<div class="container">
+
+    <form action="/clientDetails" method="post" onsubmit="return checkForm()" class='container'>
+        <h1>SvBurger SignUp Page</h1>
+        
+        <input type="text" name="inpFirstName" minlength="2" maxlength="20" placeholder="First Name">
+        <input type="text" name="inpLastName" minlength="2" maxlength="20" placeholder="Last Name">
+        <input type="text" name="inpMail" placeholder="Email address">
+        <input type="password" name="inpPass" placeholder="Create password">
+        <input type="password" name="inpConfirmPass" placeholder="Confirm password">
+        <input type="submit" value="NEXT" class="btn">
+    </form>
+    
+</div>
+        
+    <script src='/svBurger.js'></script>
+</body>
+</html>
